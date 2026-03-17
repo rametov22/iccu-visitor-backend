@@ -1,0 +1,329 @@
+# Uzbek translations for CIC Visitor.
+# Copyright (C) 2026
+# This file is distributed under the same license as the PACKAGE package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: CIC Visitor\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-17 12:11+0500\n"
+"PO-Revision-Date: 2026-03-17 12:11+0500\n"
+"Last-Translator: \n"
+"Language-Team: Uzbek\n"
+"Language: uz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: apps/iccu/admin/banner.py:25
+msgid "Местоположение"
+msgstr "Joylashuv"
+
+#: apps/iccu/admin/banner.py:31
+msgid "Статус"
+msgstr "Holat"
+
+#: apps/iccu/admin/faq.py:17 apps/iccu/models/faq.py:8
+msgid "Вопрос"
+msgstr "Savol"
+
+#: apps/iccu/admin/map.py:26
+msgid "Кол-во мест"
+msgstr "Joylar soni"
+
+#: apps/iccu/admin/rule.py:23 apps/iccu/models/map.py:35
+#: apps/iccu/models/ticket.py:20
+msgid "Иконка"
+msgstr "Belgi"
+
+#: apps/iccu/admin/rule.py:30
+msgid "Кол-во правил"
+msgstr "Qoidalar soni"
+
+#: apps/iccu/admin/schedule.py:32
+msgid "День"
+msgstr "Kun"
+
+#: apps/iccu/models/banner.py:9 apps/iccu/models/rule.py:8
+msgid "Название"
+msgstr "Nomi"
+
+#: apps/iccu/models/banner.py:10
+msgid "Короткое название"
+msgstr "Qisqa nomi"
+
+#: apps/iccu/models/banner.py:11
+msgid "Изображение"
+msgstr "Rasm"
+
+#: apps/iccu/models/banner.py:12
+msgid "Город"
+msgstr "Shahar"
+
+#: apps/iccu/models/banner.py:13
+msgid "Страна"
+msgstr "Davlat"
+
+#: apps/iccu/models/banner.py:14
+msgid "Активный баннер"
+msgstr "Faol banner"
+
+#: apps/iccu/models/banner.py:19
+msgid "Баннер"
+msgstr "Banner"
+
+#: apps/iccu/models/banner.py:20
+msgid "Баннеры"
+msgstr "Bannerlar"
+
+#: apps/iccu/models/banner.py:34
+msgid "Активный баннер уже существует. Сначала деактивируйте текущий."
+msgstr "Faol banner allaqachon mavjud. Avval joriy bannerni o'chiring."
+
+#: apps/iccu/models/constants/type.py:8
+msgid "Ссылка"
+msgstr "Havola"
+
+#: apps/iccu/models/constants/type.py:9
+msgid "Информация"
+msgstr "Ma'lumot"
+
+#: apps/iccu/models/constants/week_days.py:8
+msgid "Понедельник"
+msgstr "Dushanba"
+
+#: apps/iccu/models/constants/week_days.py:9
+msgid "Вторник"
+msgstr "Seshanba"
+
+#: apps/iccu/models/constants/week_days.py:10
+msgid "Среда"
+msgstr "Chorshanba"
+
+#: apps/iccu/models/constants/week_days.py:11
+msgid "Четверг"
+msgstr "Payshanba"
+
+#: apps/iccu/models/constants/week_days.py:12
+msgid "Пятница"
+msgstr "Juma"
+
+#: apps/iccu/models/constants/week_days.py:13
+msgid "Суббота"
+msgstr "Shanba"
+
+#: apps/iccu/models/constants/week_days.py:14
+msgid "Воскресенье"
+msgstr "Yakshanba"
+
+#: apps/iccu/models/faq.py:9
+msgid "Ответ"
+msgstr "Javob"
+
+#: apps/iccu/models/faq.py:10 apps/iccu/models/map.py:14
+#: apps/iccu/models/map.py:39 apps/iccu/models/rule.py:9
+#: apps/iccu/models/rule.py:30 apps/iccu/models/ticket.py:24
+msgid "Порядок"
+msgstr "Tartib"
+
+#: apps/iccu/models/faq.py:11 apps/iccu/models/map.py:15
+#: apps/iccu/models/map.py:40 apps/iccu/models/rule.py:10
+#: apps/iccu/models/rule.py:31
+msgid "Активно"
+msgstr "Faol"
+
+#: apps/iccu/models/faq.py:15
+msgid "Часто задаваемый вопрос"
+msgstr "Ko'p so'raladigan savol"
+
+#: apps/iccu/models/faq.py:16
+msgid "Часто задаваемые вопросы (ЧЗВ)"
+msgstr "Ko'p so'raladigan savollar (KSS)"
+
+#: apps/iccu/models/iticket.py:8
+msgid "Name"
+msgstr "Nomi"
+
+#: apps/iccu/models/iticket.py:9
+msgid "Url"
+msgstr "Havola"
+
+#: apps/iccu/models/iticket.py:10 apps/iccu/models/ticket.py:26
+msgid "Is Active"
+msgstr "Faol"
+
+#: apps/iccu/models/map.py:12 apps/iccu/models/map.py:19
+#: apps/iccu/models/map.py:31
+msgid "Комплекс"
+msgstr "Majmua"
+
+#: apps/iccu/models/map.py:13
+msgid "Ориентир"
+msgstr "Mo'ljal"
+
+#: apps/iccu/models/map.py:20
+msgid "Комплексы"
+msgstr "Majmualar"
+
+#: apps/iccu/models/map.py:33 apps/iccu/models/map.py:44
+msgid "Место"
+msgstr "Joy"
+
+#: apps/iccu/models/map.py:34
+msgid "Расширенное название"
+msgstr "To'liq nomi"
+
+#: apps/iccu/models/map.py:36
+msgid "Ссылка на местоположение"
+msgstr "Joylashuv havolasi"
+
+#: apps/iccu/models/map.py:37
+msgid "Широта"
+msgstr "Kenglik"
+
+#: apps/iccu/models/map.py:38
+msgid "Долгота"
+msgstr "Uzunlik"
+
+#: apps/iccu/models/map.py:45
+msgid "Места"
+msgstr "Joylar"
+
+#: apps/iccu/models/map.py:52
+msgid "Укажите ссылку на местоположение или координаты (широта и долгота)."
+msgstr "Joylashuv havolasini yoki koordinatalarni (kenglik va uzunlik) kiriting."
+
+#: apps/iccu/models/rule.py:11
+msgid "Икона"
+msgstr "Belgi"
+
+#: apps/iccu/models/rule.py:15
+msgid "Категория правил"
+msgstr "Qoidalar toifasi"
+
+#: apps/iccu/models/rule.py:16
+msgid "Категории правил"
+msgstr "Qoidalar toifalari"
+
+#: apps/iccu/models/rule.py:27
+msgid "Категория"
+msgstr "Toifa"
+
+#: apps/iccu/models/rule.py:29
+msgid "Текст"
+msgstr "Matn"
+
+#: apps/iccu/models/rule.py:35
+msgid "Правило"
+msgstr "Qoida"
+
+#: apps/iccu/models/rule.py:36
+msgid "Правила и рекомендации"
+msgstr "Qoidalar va tavsiyalar"
+
+#: apps/iccu/models/schedule.py:13
+msgid "День недели"
+msgstr "Hafta kuni"
+
+#: apps/iccu/models/schedule.py:15
+msgid "Рабочий день"
+msgstr "Ish kuni"
+
+#: apps/iccu/models/schedule.py:16 apps/iccu/models/schedule.py:63
+msgid "Временно закрыто"
+msgstr "Vaqtincha yopiq"
+
+#: apps/iccu/models/schedule.py:17
+msgid "Открытие"
+msgstr "Ochilish"
+
+#: apps/iccu/models/schedule.py:18
+msgid "Закрытие"
+msgstr "Yopilish"
+
+#: apps/iccu/models/schedule.py:19
+msgid "Заметка"
+msgstr "Eslatma"
+
+#: apps/iccu/models/schedule.py:23 apps/iccu/models/schedule.py:24
+msgid "Расписание"
+msgstr "Ish tartibi"
+
+#: apps/iccu/models/schedule.py:32
+msgid "Для рабочего дня укажите время открытия и закрытия."
+msgstr "Ish kuni uchun ochilish va yopilish vaqtini kiriting."
+
+#: apps/iccu/models/schedule.py:64
+msgid "Открыто сейчас"
+msgstr "Hozir ochiq"
+
+#: apps/iccu/models/schedule.py:65
+msgid "Закрыто"
+msgstr "Yopiq"
+
+#: apps/iccu/models/ticket.py:14
+msgid "Тип"
+msgstr "Turi"
+
+#: apps/iccu/models/ticket.py:16
+msgid "Заголовок"
+msgstr "Sarlavha"
+
+#: apps/iccu/models/ticket.py:18
+msgid "Текст ссылки"
+msgstr "Havola matni"
+
+#: apps/iccu/models/ticket.py:19
+msgid "URL"
+msgstr "URL"
+
+#: apps/iccu/models/ticket.py:22
+msgid "Описание"
+msgstr "Tavsif"
+
+#: apps/iccu/models/ticket.py:30
+msgid "Источник билетов"
+msgstr "Chipta manbasi"
+
+#: apps/iccu/models/ticket.py:31
+msgid "Источники билетов"
+msgstr "Chipta manbalari"
+
+#: apps/iccu/models/ticket.py:46
+msgid "Для типа «Ссылка» описание не заполняется."
+msgstr "\"Havola\" turi uchun tavsif to'ldirilmaydi."
+
+#: apps/iccu/models/ticket.py:48
+msgid "Для типа «Ссылка» ссылка обязательна."
+msgstr "\"Havola\" turi uchun havola majburiy."
+
+#: apps/iccu/models/ticket.py:50
+msgid "Для типа «Ссылка» этикетка обязательна."
+msgstr "\"Havola\" turi uchun yorliq majburiy."
+
+#: apps/iccu/models/ticket.py:55
+msgid "Для типа «Информация» текст ссылки не заполняется."
+msgstr "\"Ma'lumot\" turi uchun havola matni to'ldirilmaydi."
+
+#: apps/iccu/models/ticket.py:58
+msgid "Для типа «Информация» URL не заполняется."
+msgstr "\"Ma'lumot\" turi uchun URL to'ldirilmaydi."
+
+#: apps/iccu/models/ticket.py:63
+msgid "Для типа «Инфо» описание обязательно."
+msgstr "\"Ma'lumot\" turi uchun tavsif majburiy."
+
+#: config/urls.py:17
+#, python-format
+msgid "%(app_name)s site admin"
+msgstr "%(app_name)s sayt boshqaruvi"
+
+#: config/urls.py:18
+#, python-format
+msgid "%(app_name)s administration"
+msgstr "%(app_name)s boshqaruv"
+
+#: config/urls.py:19
+msgid "Site administration"
+msgstr "Sayt boshqaruvi"
