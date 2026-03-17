@@ -1,5 +1,5 @@
 {
-    "name": "cic-visitor",
+    "name": "iccu-visitor",
     "dockerComposeFile": [
         "../../docker-compose.yml",
         "../docker-compose.yml"
