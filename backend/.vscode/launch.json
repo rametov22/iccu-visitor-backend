@@ -6,7 +6,7 @@
             "type": "debugpy",
             "request": "launch",
             "program": "${workspaceFolder}/manage.py",
-            "args": ["runserver", "0.0.0.0:8000"],
+            "args": ["runserver", "0.0.0.0:22021", "--noreload"],
             "django": true,
             "justMyCode": true,
             "console": "integratedTerminal",
