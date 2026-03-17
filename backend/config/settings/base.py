@@ -10,7 +10,6 @@ __all__ = (
     "APP_NAME",
     "SECRET_KEY",
     "DEBUG",
-    "GEOIP_PATH",
     "SECURE_SSL_REDIRECT",
     "SESSION_COOKIE_SECURE",
     "SECURE_PROXY_SSL_HEADER",

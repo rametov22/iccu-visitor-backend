@@ -6,6 +6,8 @@ from .database import *
 from .installed_apps import *
 from .localization import *
 from .middleware import *
+from .news_api import *
+from .rest_framework import *
 from .rosetta import *
 from .settings import *
 

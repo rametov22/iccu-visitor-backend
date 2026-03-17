@@ -2,6 +2,7 @@ __all__ = ("INSTALLED_APPS",)
 
 
 DJANGO_APPS = [
+    "modeltranslation",
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
@@ -10,10 +11,13 @@ DJANGO_APPS = [
     "django.contrib.staticfiles",
 ]
 
-THIRD_PARTY_APPS = []
+THIRD_PARTY_APPS = [
+    "rosetta",
+    "drf_spectacular",
+]
 
 LOCAL_APPS = [
-    "cic",
+    "iccu",
 ]
 
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
