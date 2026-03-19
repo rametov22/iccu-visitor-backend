@@ -7,6 +7,7 @@ from django.contrib import admin
 from django.http import JsonResponse
 from django.urls import include, path
 from django.utils.translation import gettext_lazy as _
+from django.views.generic import TemplateView
 
 APP_NAME = settings.APP_NAME
 
@@ -35,6 +36,8 @@ urlpatterns = [
 
 urlpatterns += i18n_patterns(
     *admin_urlpatterns,
+    path("privacy/", TemplateView.as_view(template_name="privacy_policy.html")),
+    path("offer/", TemplateView.as_view(template_name="offer.html")),
     path("api/v1/", include("config.api.v1.urls", namespace="api")),
 )
 
