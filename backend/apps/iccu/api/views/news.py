@@ -1,4 +1,5 @@
 import httpx
+from django.utils.translation import gettext as _
 from drf_spectacular.utils import OpenApiParameter, extend_schema, inline_serializer
 from rest_framework import serializers
 from rest_framework.decorators import api_view
@@ -25,6 +26,20 @@ __all__ = (
         ),
     ],
 )
+# @extend_schema(
+#     parameters=[
+#         OpenApiParameter(name="page", type=int, default=1),
+#         OpenApiParameter(name="lang", type=str, default="ru"),
+#         OpenApiParameter(
+#             name="category",
+#             type=int,
+#             required=False,
+#             description=_(
+#                 "1=Events, 2=Activities, 3=Visits, 5=Articles, 6=Media about us"
+#             ),
+#         ),
+#     ],
+# )
 @api_view(["GET"])
 def news_list(request):
     page = int(request.query_params.get("page", 1))
@@ -86,10 +101,22 @@ def news_detail(request, news_id: int):
 @api_view(["GET"])
 def news_categories(request):
     categories = [
-        {"id": 1, "name": "Events"},
-        {"id": 2, "name": "Activities"},
-        {"id": 3, "name": "Visits"},
-        {"id": 5, "name": "Articles"},
-        {"id": 6, "name": "Media about us"},
+        {"id": 1, "name": _("Events")},
+        {"id": 2, "name": _("Activities")},
+        {"id": 3, "name": _("Visits")},
+        {"id": 5, "name": _("Articles")},
+        {"id": 6, "name": _("Media about us")},
     ]
     return Response(categories)
+
+
+# @api_view(["GET"])
+# def news_categories(request):
+#     categories = [
+#         {"id": 1, "name": "Events"},
+#         {"id": 2, "name": "Activities"},
+#         {"id": 3, "name": "Visits"},
+#         {"id": 5, "name": "Articles"},
+#         {"id": 6, "name": "Media about us"},
+#     ]
+#     return Response(categories)
